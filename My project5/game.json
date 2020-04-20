@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "portrait",
     "packageName": "com.melkridgegames.falldown",
-    "projectFile": "C:\\Users\\emvig\\Documents\\GDevelop projects\\My project5\\game.json",
+    "projectFile": "C:\\Users\\emvig\\Documents\\GitHub\\Green\\My project5\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -1297,7 +1297,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "YouDied",
+          "name": "GameOver",
           "width": 0,
           "x": 192,
           "y": 367,
@@ -3153,14 +3153,14 @@
         {
           "bold": true,
           "italic": true,
-          "name": "YouDied",
+          "name": "GameOver",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "You Died!",
+          "string": "Game Over!",
           "font": "",
           "characterSize": 60,
           "color": {
@@ -3460,7 +3460,7 @@
                 "value": "TextObject::Opacity"
               },
               "parameters": [
-                "YouDied",
+                "GameOver",
                 "=",
                 "0"
               ],
@@ -4965,7 +4965,7 @@
                     "value": "TextObject::Opacity"
                   },
                   "parameters": [
-                    "YouDied",
+                    "GameOver",
                     "=",
                     "255"
                   ],
